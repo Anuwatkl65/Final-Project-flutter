@@ -2,8 +2,6 @@ import 'package:pocketbase/pocketbase.dart';
 import '../models/product.dart';
 
 class PBService {
-  // ✅ สำหรับ Flutter Web ให้ใช้ 127.0.0.1
-  // ✅ สำหรับ Emulator ให้เปลี่ยนเป็น 10.0.2.2
   static const baseUrl = 'http://127.0.0.1:8090';
   final pb = PocketBase(baseUrl);
 
